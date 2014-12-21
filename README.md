@@ -1,9 +1,9 @@
-# type_api
+# crud_api
 
-The Cloudlet Platforms type_api component manages users Cloudlet Platform. It supports create, delete, and read of Cloudlets.
+Allows direct dbs via a private key, intended for internal use and demonstration.
 
 ## Getting Started
-Install the module with: `npm install git+ssh://git@github.com:OPENi-ict/type_api.git`
+Install the module with: `npm install git+ssh://git@github.com:OPENi-ict/crud_api.git`
 
 You will need to install the following through macports or aptitude.
 
@@ -22,8 +22,8 @@ sudo apt-get install phantomjs
 To build the project enter the following commands. Note: npm install is only required the first time the module is built or if a new dependency is added. There are a number of grunt tasks that can be executed including: test, cover, default and jenkins. The jenkins task is executed on the build server, if it doesn't pass then the build will fail.
 
 ```bash
-git clone git@gitlab.openi-ict.eu:type_api.git
-cd type_api
+git clone git@gitlab.openi-ict.eu:crud_api.git
+cd crud_api
 npm install
 grunt jenkins
 ```
@@ -36,19 +36,8 @@ node lib/local-runner.js
 
 ## Documentation
 
-API documentation can be found on the OPENi website (http://dev.openi-ict.eu/api-docs/#!/types).
-
-
-## Contributors
-
-* Donal McCarthy (dmccarthy@tssg.org)
-
-
-## Release History
-**0.1.0** *(12/2/14 dmccarthy@tssg.org)* First version of the types API module.
-
+API documentation can be found on the OPENi website (http://dev.openi-ict.eu/api-docs/#!/crud).
 
 ## License
 Copyright (c) 2014
 Licensed under the MIT license.
-
