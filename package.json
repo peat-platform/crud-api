@@ -1,15 +1,15 @@
 {
-  "name": "type_api",
-  "description": "OPENi Type API for the OPENi Cloudlet Platform",
+  "name": "crud_api",
+  "description": "OPENi guarded CRUD API for the OPENi Cloudlet Platform",
   "version": "0.1.0",
   "homepage": "openi-ict.eu",
   "author": {
-    "name": "dmccarthy",
-    "email": "dmccarthy@tssg.org"
+    "name": "",
+    "email": ""
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:OPENi-ict/type-api.git"
+    "url": "git@github.com:OPENi-ict/crud-api.git"
   },
   "main": "lib/main",
   "engines": {
@@ -24,7 +24,8 @@
     "m2nodehandler": "OPENi-ict/m2nodehandler",
     "openi-cloudlet-utils": "OPENi-ict/cloudlet-utils",
      "openi_rrd": "OPENi-ict/openi_rrd",
-    "openi-logger": "OPENi-ict/openi-logger"
+    "openi-logger": "OPENi-ict/openi-logger",
+    "uuid": ""
   },
   "devDependencies": {
     "grunt": "^0.4.5",
