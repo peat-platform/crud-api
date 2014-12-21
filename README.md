@@ -3,6 +3,10 @@
 Allows direct dbs via a private key, intended for internal use and demonstration.
 
 ## Getting Started
+
+### WARNING!!!
+Currently requires the branched dao, mongrel2 and swagger-def - 'genericIO'
+
 Install the module with: `npm install git+ssh://git@github.com:OPENi-ict/crud_api.git`
 
 You will need to install the following through macports or aptitude.
