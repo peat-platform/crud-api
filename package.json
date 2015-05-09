@@ -2,14 +2,14 @@
   "name": "crud_api",
   "description": "OPENi guarded CRUD API for the OPENi Cloudlet Platform",
   "version": "0.1.0",
-  "homepage": "openi-ict.eu",
+  "homepage": "peat-platform.org",
   "author": {
     "name": "",
     "email": ""
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:OPENi-ict/crud-api.git"
+    "url": "git@github.com:peat-platform/crud-api.git"
   },
   "main": "lib/main",
   "engines": {
@@ -19,12 +19,12 @@
     "test": "grunt nodeunit"
   },
   "dependencies": {
-    "dbc": "OPENi-ict/dbc",
-    "loglet": "git://github.com/OPENi-ict/loglet",
-    "m2nodehandler": "OPENi-ict/m2nodehandler",
-    "cloudlet-utils": "OPENi-ict/cloudlet-utils",
-     "peat-rrd": "OPENi-ict/peat-rrd",
-    "peat-logger": "OPENi-ict/peat-logger",
+    "dbc": "peat-platform/dbc",
+    "loglet": "peat-platform/loglet",
+    "m2nodehandler": "peat-platform/m2nodehandler",
+    "cloudlet-utils": "peat-platform/cloudlet-utils",
+     "peat-rrd": "peat-platform/peat-rrd",
+    "peat-logger": "peat-platform/peat-logger",
     "uuid": ""
   },
   "devDependencies": {
