@@ -1,6 +1,6 @@
 {
   "name": "crud-api",
-  "description": "OPENi guarded CRUD API for the OPENi Cloudlet Platform",
+  "description": "PEAT guarded CRUD API for the PEAT Cloudlet Platform",
   "version": "0.1.0",
   "homepage": "peat-platform.org",
   "author": {
